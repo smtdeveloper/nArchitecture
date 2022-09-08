@@ -48,7 +48,7 @@ namespace Persistence.Contexts
 
 
 
-            Brand[] brandEntitySeeds = { new(1, "BMW"), new(2, "Mercedes") };
+            Brand[] brandEntitySeeds = { new(1, "BMW", true), new(2, "Mercedes", true) };
             modelBuilder.Entity<Brand>().HasData(brandEntitySeeds);
 
             Model[] modelEntitySeeds = { new(1, "Series 3", 1500, "", 1), new(2, "A100", 850, "", 2), new(3, "Series 4", 2400, "", 1) };

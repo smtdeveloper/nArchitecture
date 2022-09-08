@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Application.Features.Brands.Dtos
 {
-    public class CreatedBrandDto
+    public class DeleteBrandDto
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public bool IsActive { get; set; }
     }
 }
