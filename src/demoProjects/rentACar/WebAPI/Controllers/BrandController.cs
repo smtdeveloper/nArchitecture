@@ -4,10 +4,10 @@ using Application.Features.Brands.Models;
 using Application.Features.Brands.Queries.GetByIdBrand;
 using Application.Features.Brands.Queries.GetListBrand;
 using Core.Application.Requests;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using WebAPI.Controllers;
 
-namespace WebAPI.Controllers
+namespace WebAPI.Controllerss
 {
     [Route("api/[controller]")]
     [ApiController]
